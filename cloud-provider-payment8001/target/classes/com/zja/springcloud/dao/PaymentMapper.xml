@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zja.springcloud.dao.PaymentMapper">
+
+    <select id="getPayment" parameterType="Long" resultType="com.zja.springcloud.entity.Payment">
+        select * from tb_payment where id = #{id}
+    </select>
+
+    <insert id="savePayment" parameterType="com.zja.springcloud.entity.Payment" keyProperty="id" useGeneratedKeys="true">
+        insert into tb_payment(id,serial) values(#{id},#{serial})
+    </insert>
+</mapper>
