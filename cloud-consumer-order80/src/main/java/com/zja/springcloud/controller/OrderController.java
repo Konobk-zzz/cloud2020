@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 @RestController
-@RequestMapping("/consumer")
 public class OrderController {
     public static final String PAYMENT_URL="http://localhost:8001/provider";
 
