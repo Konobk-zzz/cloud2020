@@ -1,0 +1,4 @@
+com\zja\springcloud\entity\CommonResult.class
+com\zja\springcloud\entity\Payment$PaymentBuilder.class
+com\zja\springcloud\entity\Payment.class
+com\zja\springcloud\service\PaymentService.class

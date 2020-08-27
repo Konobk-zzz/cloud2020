@@ -1,0 +1,3 @@
+com\zja\springcloud\lb\MyLBRuleImpl.class
+com\zja\myrule\RoundRibbonRule.class
+com\zja\springcloud\lb\MyLBRule.class
