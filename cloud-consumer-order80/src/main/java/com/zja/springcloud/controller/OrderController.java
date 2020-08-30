@@ -1,14 +1,17 @@
 package com.zja.springcloud.controller;
 
 
-import com.zja.springcloud.lb.MyLBRule;
 import com.zja.springcloud.entity.CommonResult;
 import com.zja.springcloud.entity.Payment;
+import com.zja.springcloud.lb.MyLBRule;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.Resource;
@@ -57,5 +60,10 @@ public class OrderController {
         ServiceInstance instance = myLBRule.instances(instances);
         URI uri = instance.getUri();
         return restTemplate.getForObject(uri + "/provider/lb",CommonResult.class);
+    }
+
+    @GetMapping("/payment/zipkin")
+    public String getZipkin(){
+        return restTemplate.getForObject(PAYMENT_Eureka_URL + "/payment/zipkin", String.class);
     }
 }

@@ -1,6 +1,6 @@
-D:\RuntimeEnvironment\GitRepository\cloud2020\cloud-consumer-order80\src\main\java\com\zja\springcloud\controller\OrderController.java
-D:\RuntimeEnvironment\GitRepository\cloud2020\cloud-consumer-order80\src\main\java\com\zja\myrule\RoundRibbonRule.java
-D:\RuntimeEnvironment\GitRepository\cloud2020\cloud-consumer-order80\src\main\java\com\zja\springcloud\lb\MyLBRule.java
-D:\RuntimeEnvironment\GitRepository\cloud2020\cloud-consumer-order80\src\main\java\com\zja\springcloud\lb\MyLBRuleImpl.java
-D:\RuntimeEnvironment\GitRepository\cloud2020\cloud-consumer-order80\src\main\java\com\zja\springcloud\OrderMain80.java
-D:\RuntimeEnvironment\GitRepository\cloud2020\cloud-consumer-order80\src\main\java\com\zja\springcloud\config\RestTemplateConfigure.java
+F:\RuntimeEnvironment\gitRepository\cloud2020\cloud-consumer-order80\src\main\java\com\zja\springcloud\lb\MyLBRule.java
+F:\RuntimeEnvironment\gitRepository\cloud2020\cloud-consumer-order80\src\main\java\com\zja\springcloud\lb\MyLBRuleImpl.java
+F:\RuntimeEnvironment\gitRepository\cloud2020\cloud-consumer-order80\src\main\java\com\zja\springcloud\config\RestTemplateConfigure.java
+F:\RuntimeEnvironment\gitRepository\cloud2020\cloud-consumer-order80\src\main\java\com\zja\myrule\RoundRibbonRule.java
+F:\RuntimeEnvironment\gitRepository\cloud2020\cloud-consumer-order80\src\main\java\com\zja\springcloud\controller\OrderController.java
+F:\RuntimeEnvironment\gitRepository\cloud2020\cloud-consumer-order80\src\main\java\com\zja\springcloud\OrderMain80.java

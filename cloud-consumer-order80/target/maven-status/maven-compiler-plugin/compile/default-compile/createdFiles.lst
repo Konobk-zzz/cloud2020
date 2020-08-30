@@ -1,3 +1,6 @@
+com\zja\springcloud\controller\OrderController.class
 com\zja\springcloud\lb\MyLBRuleImpl.class
 com\zja\myrule\RoundRibbonRule.class
 com\zja\springcloud\lb\MyLBRule.class
+com\zja\springcloud\OrderMain80.class
+com\zja\springcloud\config\RestTemplateConfigure.class

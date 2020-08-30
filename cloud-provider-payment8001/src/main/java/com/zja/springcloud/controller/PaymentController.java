@@ -73,4 +73,9 @@ public class PaymentController {
         }
         return CommonResult.successData(port);
     }
+
+    @GetMapping("/payment/zipkin")
+    public String paymentZipkin(){
+        return "hi,this is zipkin!";
+    }
 }

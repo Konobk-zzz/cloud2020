@@ -8,8 +8,13 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/cloud_db?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
-    password:
+    password: 123456
     type: com.alibaba.druid.pool.DruidDataSource
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    sampler:
+      probability: 1
 
 eureka:
   client:
@@ -17,3 +22,6 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://localhost:7001/eureka/
+  instance:
+    instance-id: PaymentProvider8001
+    prefer-ip-address: true
