@@ -28,6 +28,13 @@
       <module>cloud-stream-rabbitmq-provider8801</module>
       <module>cloud-stream-rabbitmq-consumer8802</module>
       <module>cloud-stream-rabbitmq-consumer8803</module>
+      <module>cloudAlibaba-provider-payment-9001</module>
+      <module>cloudAlibaba-consumer-payment-80</module>
+      <module>cloudAlibaba-config-nacos-client3377</module>
+      <module>cloudAlibaba-sentinel-service8401</module>
+      <module>cloudAlibaba-provider-payment9003</module>
+      <module>cloudAlibaba-consumer-payment84</module>
+      <module>cloudAlibaba-consumer-payment85</module>
   </modules>
 
   <properties>
@@ -81,24 +88,32 @@
         <artifactId>druid</artifactId>
         <version>${druid.version}</version>
       </dependency>
-        <!--mybatis-->
-        <dependency>
-          <groupId>org.mybatis.spring.boot</groupId>
-          <artifactId>mybatis-spring-boot-starter</artifactId>
-          <version>${mybatis.spring.boot.version}</version>
-        </dependency>
-        <!--junit-->
-        <dependency>
-          <groupId>junit</groupId>
-          <artifactId>junit</artifactId>
-          <version>${junit.version}</version>
-        </dependency>
-        <!--log4j-->
-        <dependency>
-          <groupId>log4j</groupId>
-          <artifactId>log4j</artifactId>
-          <version>${log4j.version}</version>
-        </dependency>
+      <!--mybatis-->
+      <dependency>
+        <groupId>org.mybatis.spring.boot</groupId>
+        <artifactId>mybatis-spring-boot-starter</artifactId>
+        <version>${mybatis.spring.boot.version}</version>
+      </dependency>
+      <!--junit-->
+      <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>${junit.version}</version>
+      </dependency>
+      <!--log4j-->
+      <dependency>
+        <groupId>log4j</groupId>
+        <artifactId>log4j</artifactId>
+        <version>${log4j.version}</version>
+      </dependency>
+      <!--spring-cloud-alibaba-->
+      <dependency>
+        <groupId>com.alibaba.cloud</groupId>
+        <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+        <version>2.1.1.BUILD-SNAPSHOT</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
     </dependencies>
 
   </dependencyManagement>
